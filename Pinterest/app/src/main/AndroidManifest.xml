@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.pinterest" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Pinterest"
+        tools:ignore="AllowBackup">
+        <activity
+            android:name=".SeaActivity"
+            android:label="Seaside"
+            android:exported="true" />
+        <activity
+            android:name=".DisneyActivity"
+            android:exported="true"
+            android:label="Disney" />
+        <activity
+            android:name=".FlowerActivity"
+            android:exported="true"
+            android:label="Flowers" />
+        <activity
+            android:name=".WallPaperActivity"
+            android:exported="true"
+            android:label="WallPapers" />
+        <activity
+            android:name=".FoodActivity"
+            android:exported="true"
+            android:label="Food" />
+        <activity
+            android:name=".BookActivity"
+            android:exported="true"
+            android:label="Books" />
+        <activity
+            android:name=".SpaceActivity"
+            android:exported="true"
+            android:label="Space" />
+        <activity
+            android:name=".AnemiActivity"
+            android:exported="true"
+            android:label="Anemi" />
+        <activity
+            android:name=".DecoreActivity"
+            android:exported="true"
+            android:label="Decore" />
+        <activity
+            android:name=".ActorsActivity"
+            android:exported="true"
+            android:label="Actors" />
+        <activity
+            android:name=".ViewDataActivity"
+            android:exported="true"
+            android:label="Account Information" />
+        <activity
+            android:name=".AnimalActivity"
+            android:exported="true"
+            android:label="Animals" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="true"
+            android:label="Home" />
+        <activity
+            android:name=".AboutActivity"
+            android:exported="true"
+            android:label="About US" />
+        <activity
+            android:name=".SettingsActivity"
+            android:exported="true"
+            android:label="Settings" />
+        <activity
+            android:name=".MixtureActivity"
+            android:exported="true"
+            android:label="Mixture" />
+        <activity
+            android:name=".SignupActivity"
+            android:exported="true"
+             />
+        <activity
+            android:name=".SigninActivity"
+            android:exported="true"
+            />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
